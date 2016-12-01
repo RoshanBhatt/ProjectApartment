@@ -7,7 +7,17 @@ Hope you all enjoy this app!
 Your **feedback** will be valuable. :)
 
 ##Please Note
-I have not included the GoogleVR SDK for Unity in my repo. You will have to pull that to your project to build and run this app.
+You will have to use GoogleVR SDK package for you to build and run this app.
+To get it, go to  `https://developers.google.com/vr/unity/download` 
+And click **Download the Repo Directly**
 
+###Import
+Once the download finishes, unzip the repo and find the **GoogleVRForUnity** package. 
+Drag that into Unity and accept the import dialog.
+
+###Drag and Drop
+Drag the prefab **GVRViewerMain** into the scene.
+You will also need to add a normal camera in the location you want to view from.
+**Deactivate** the VR Camera system we made and click run. You will be able to use **Google VR**.
 
 
